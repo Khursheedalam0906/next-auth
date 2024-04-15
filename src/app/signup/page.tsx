@@ -88,7 +88,7 @@ export default function Signup() {
       >
         {buttonDisabled ? "No Signup" : "Signup"}
       </button>
-      <Link href="/login">Visit login Signup</Link>
+      <Link href="/login">Visit Signup</Link>
     </div>
   );
 }
