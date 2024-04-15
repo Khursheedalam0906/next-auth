@@ -6,7 +6,7 @@ import Link from "next/link";
 import { toast } from "react-hot-toast";
 import { useRouter } from "next/navigation";
 
-export default function page() {
+export default function Profile() {
   const router = useRouter();
   const [data, setData] = useState("nothing");
 

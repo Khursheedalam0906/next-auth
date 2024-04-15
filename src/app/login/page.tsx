@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-export default function page() {
+export default function Login() {
   const router = useRouter();
   const [user, setUser] = useState({
     email: "",
@@ -72,7 +72,7 @@ export default function page() {
       >
         {buttonDisabled ? "No Login" : "Login"}
       </button>
-      <Link href="/signup">Visit signup page</Link>
+      <Link href="/signup">Visit signup Login</Link>
     </div>
   );
 }
